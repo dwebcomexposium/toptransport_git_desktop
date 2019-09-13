@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="26" viewBox="0 0 15 26">
+  <defs>
+    <path id="facebook-footer-a" d="M18.496425,29.702825 L18.496425,18.0932417 L22.393675,18.0932417 L22.9773417,13.5684083 L18.496425,13.5684083 L18.496425,10.679825 C18.496425,9.36940833 18.8605083,8.47690833 20.7390083,8.47690833 L23.1345917,8.47549167 L23.1345917,4.428075 C22.7195083,4.372825 21.2985917,4.249575 19.643925,4.249575 C16.188675,4.249575 13.8242583,6.35899167 13.8242583,10.2307417 L13.8242583,13.5684083 L9.91709167,13.5684083 L9.91709167,18.0932417 L13.8242583,18.0932417 L13.8242583,29.702825 L18.496425,29.702825 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-9 -4)">
+    <rect width="34" height="34"/>
+    <mask id="facebook-footer-b" fill="#fff">
+      <use xlink:href="#facebook-footer-a"/>
+    </mask>
+    <use fill="#000" xlink:href="#facebook-footer-a"/>
+    <g fill="#1D213A" mask="url(#facebook-footer-b)">
+      <rect width="34" height="34"/>
+    </g>
+  </g>
+</svg>
