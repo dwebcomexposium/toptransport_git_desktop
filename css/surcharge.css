@@ -567,18 +567,10 @@ custom[name="factbox"] a.externe {
 
 .article-intro {
    text-align: left !important;
-}
-
-.article-intro p {
-   padding: 6rem 0;
-   color: #C6C8D7;
-   font-size: 2rem !important;
-   font-weight: bold;
-   line-height: 3.3rem;
    position: relative;
 }
 
-.article-intro p::after {
+.article-intro::after {
    content: '';
    width: 10.5rem;
    height: .4rem;
@@ -589,6 +581,14 @@ custom[name="factbox"] a.externe {
    -ms-transform: translate(-50%, -50%);
        transform: translate(-50%, -50%);
    bottom: 1rem;
+}
+
+.article-intro p {
+   padding: 6rem 0;
+   color: #C6C8D7;
+   font-size: 2rem !important;
+   font-weight: bold;
+   line-height: 3.3rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -3052,6 +3052,19 @@ body.faq .faq-summary {
    position: absolute;
    top: 0;
    left: 0;
+   max-height: 45.1rem;
+}
+
+@media screen and (min-width: 1920px) {
+   .front .insiders-intro img {
+      max-height: 45.1rem;
+   }
+}
+
+@media screen and (max-width: 1920px) {
+   .front .insiders-intro img {
+      max-height: 48.5rem;
+   }
 }
 
 @media screen and (max-width: 1200px) {
