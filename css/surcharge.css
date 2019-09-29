@@ -385,11 +385,10 @@ p {
 
 .article-navigation .inside ul.an-list li.an-item-previous a .an-item-content,
 .article-navigation .inside ul.an-list li.an-item-next a .an-item-content {
+   background: #E38500;
    color: white;
    padding: 3rem;
    width: 100%;
-   position: relative;
-   background: transparent;
 }
 
 .article-navigation .inside ul.an-list li.an-item-previous a .an-item-content i::before,
@@ -399,21 +398,13 @@ p {
 
 .article-navigation .inside ul.an-list li.an-item-previous a .an-item-content span.an-item-title,
 .article-navigation .inside ul.an-list li.an-item-next a .an-item-content span.an-item-title {
-   color: #050924;
+   color: white;
    font-size: 2rem;
-   margin-bottom: 10px;
 }
 
 .article-navigation .inside ul.an-list li.an-item-previous a .an-item-content span.an-item-publication,
 .article-navigation .inside ul.an-list li.an-item-next a .an-item-content span.an-item-publication {
-   color: #656880;
-}
-
-.article-navigation .inside ul.an-list .an-item-content {
-   -webkit-box-ordinal-group: 3;
-       -ms-flex-order: 2;
-           order: 2;
-   border-bottom: 1px solid #E38500 !important;
+   color: white;
 }
 
 .article-navigation .inside ul.an-list .an-item-next a img {
@@ -422,58 +413,10 @@ p {
            order: 1;
 }
 
-custom[name="factbox"] h2,
-custom[name="factbox"] p,
-custom[name="factbox"] a.externe {
-   background: #050924;
-   background-color: #151832;
-   background-image: url(/theme/milipol_insiders_git_desktop/img/pattern.png);
-   background-position: top 1px left;
-}
-
-custom[name="factbox"] p:nth-child(4) {
-   padding-bottom: 5rem !important;
-}
-
-custom[name="factbox"] h2 {
-   margin-top: 13rem;
-   font-size: 2.4rem;
-   margin-bottom: 0;
-   line-height: 4.5rem;
-   color: white;
-   position: relative;
-   padding: 4.5rem 1.5rem 1.5rem 12.8rem !important;
-}
-
-custom[name="factbox"] h2::before {
-   content: url(/theme/milipol_insiders_git_desktop/img/icon-interro.svg);
-   position: absolute;
-   left: 80px;
-   top: 52px;
-}
-
-custom[name="factbox"] p {
-   margin-top: 0;
-   color: #656880;
-   font-size: 1.6rem;
-   margin-bottom: 0;
-   color: #BDC1D9;
-   padding: 0 8.5rem 2.5rem 8rem !important;
-}
-
-custom[name="factbox"] a.externe {
-   background: #E38500;
-   text-decoration: none;
-   border: 3px solid #E38500;
-   font-family: "insiders-montserrat-bold", arial, sans-serif;
-   font-size: 1.2rem;
-   line-height: 2.8rem;
-   color: #FFFFFF;
-   letter-spacing: 0;
-   padding: 1.8rem 2.8rem;
-   border-radius: 2px;
-   display: inline-block;
-   text-transform: uppercase;
+.article-navigation .inside ul.an-list .an-item-next a .an-item-content {
+   -webkit-box-ordinal-group: 3;
+       -ms-flex-order: 2;
+           order: 2;
 }
 
 .nf-form-submit [class^="btn"] {
@@ -563,38 +506,6 @@ custom[name="factbox"] a.externe {
        transform: inherit;
    margin-bottom: 12px;
    display: initial;
-}
-
-.article-intro {
-   text-align: left !important;
-   position: relative;
-}
-
-.article-intro::after {
-   content: '';
-   width: 10.5rem;
-   height: .4rem;
-   background: #E38500;
-   position: absolute;
-   left: 50%;
-   -webkit-transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
-       transform: translate(-50%, -50%);
-   bottom: 1rem;
-}
-
-.article-intro p {
-   padding: 6rem 0;
-   color: #C6C8D7;
-   font-size: 2rem !important;
-   font-weight: bold;
-   line-height: 3.3rem;
-}
-
-@media screen and (max-width: 768px) {
-   .article-intro {
-      margin: 0 3rem !important;
-   }
 }
 
 .intro {
@@ -1246,9 +1157,6 @@ body.error404 p {
    -webkit-box-pack: center;
        -ms-flex-pack: center;
            justify-content: center;
-   -webkit-box-align: center;
-       -ms-flex-align: center;
-           align-items: center;
    padding: 6rem 0 2rem 0;
 }
 
@@ -1398,10 +1306,6 @@ header.site-banner>.inside .nav-social li {
    -webkit-transition: all 0.2s ease !important;
    -o-transition: all 0.2s ease !important;
    transition: all 0.2s ease !important;
-}
-
-header.site-banner>.inside .nav-social li:last-child {
-   margin-top: 2px;
 }
 
 header.site-banner>.inside .nav-social li:hover {
@@ -1665,11 +1569,6 @@ header.site-banner .not-logged .widget-text .openCapMobile i::before {
 header.site-banner .logged .widget-text a,
 header.site-banner .not-logged .widget-text a {
    color: white;
-}
-
-header.site-banner .logged .widget-my-selection,
-header.site-banner .not-logged .widget-my-selection {
-   margin-top: -2px;
 }
 
 header.site-banner .logged .widget-my-selection a,
@@ -2161,59 +2060,6 @@ header.site-banner .linkid758169 a:hover {
 
 /* Pages */
 
-p.date1 {
-   color: #30b3e8;
-}
-
-p.date2 {
-   color: #e64892;
-}
-
-p.date3 {
-   color: #ebc000;
-}
-
-p.date4 {
-   color: #80ba27;
-}
-
-custom[name="strike"] {
-   color: #E38500;
-}
-
-.article-content ul li {
-   margin-left: 2.5rem !important;
-}
-
-.article-content ul li>ul li::before {
-   content: url(/theme/milipol_insiders_git_desktop/img/arrow-gris.svg) !important;
-}
-
-.article-navigation .inside ul li a img {
-   display: none;
-}
-
-.table3 tr:first-child p {
-   color: #1D213A !important;
-   text-align: center;
-   margin: 0;
-}
-
-.table3 tbody tr:nth-child(odd) {
-   background: transparent !important;
-}
-
-.table3 td {
-   border: none !important;
-   padding: 0 !important;
-   background: transparent !important;
-   height: inherit !important;
-}
-
-.table3 td p {
-   margin: 0;
-}
-
 .article-navigation .inside ul li {
    width: 78%;
 }
@@ -2365,8 +2211,14 @@ strong {
 }
 
 .article-wrapper .article-intro {
-   margin: -4rem auto 0 auto;
+   margin: 51rem auto 0 auto;
    max-width: 79rem;
+   display: none;
+   padding: 4rem 0 6rem 0 !important;
+}
+
+.article-wrapper .article-intro p {
+   padding: 0 !important;
 }
 
 .article-wrapper .article-content {
@@ -2435,27 +2287,13 @@ strong {
    }
 }
 
-.article-content figure small {
-   display: inherit;
-   text-align: left;
-   color: #656880;
-   font-size: 1.2rem;
-}
-
 .article-content figure img,
 .article-content figure strong {
    display: block;
 }
 
-.article-content figure figcaption .ezxmltext-field p {
-   color: red;
-   text-align: left;
-   margin-bottom: 0;
-   font-weight: 800;
-   color: #050924;
-}
-
-.article-content figure figcaption strong {
+.article-content figure small,
+.article-content figure figcaption {
    display: none;
 }
 
@@ -2715,25 +2553,6 @@ table tr td {
    text-align: center;
 }
 
-body.contact .cl-item-email {
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-}
-
-body.contact .cl-item-email a {
-   margin-left: .5rem;
-}
-
-body.contact .contacts-list .cl-content {
-   -webkit-box-orient: vertical;
-   -webkit-box-direction: normal;
-       -ms-flex-direction: column;
-           flex-direction: column;
-   max-width: 360px;
-   margin: 0 auto;
-}
-
 body.contact .contacts-list .cl-content:nth-last-child(1) {
    margin-bottom: 8rem;
 }
@@ -2802,10 +2621,6 @@ body.faq .faq-content {
    margin: 0 auto 4rem;
 }
 
-body.faq .faq-content h2.fc-title {
-   color: #E38500;
-}
-
 body.faq .faq-content:last-child {
    margin-bottom: 12rem;
 }
@@ -2820,17 +2635,16 @@ body.faq .faq-content .fc-item-title {
 
 body.faq .faq-content .fc-item-title a {
    line-height: 3.2rem;
-   color: #050924;
 }
 
 body.faq .faq-content .fc-item-title a:focus,
 body.faq .faq-content .fc-item-title a:hover {
    text-decoration: none;
-   color: #C6C8D7;
+   color: #050924;
 }
 
 body.faq .faq-content .fc-item-nb {
-   background-color: #E38500;
+   background-color: #050924;
 }
 
 body.faq .faq-content .icon-minus,
@@ -2883,7 +2697,6 @@ body.faq .faq-summary {
    font-size: 45px;
    color: #1D213A;
    text-align: center;
-   margin-top: 0;
 }
 
 .front .article-focus.landing {
@@ -3041,44 +2854,11 @@ body.faq .faq-summary {
 
 .front .insiders-intro {
    background-color: #1D213A;
-   padding: 7rem 7rem 7.2rem 7rem;
+   padding: 7rem 7rem 6rem;
    -webkit-transform: translateY(-70px);
    -ms-transform: translateY(-70px);
        transform: translateY(-70px);
    margin-bottom: -7rem;
-}
-
-.front .insiders-intro img {
-   position: absolute;
-   top: 0;
-   left: 0;
-   max-height: 45.1rem;
-}
-
-@media screen and (min-width: 1920px) {
-   .front .insiders-intro img {
-      max-height: 45.1rem;
-   }
-}
-
-@media screen and (max-width: 1920px) {
-   .front .insiders-intro img {
-      max-height: 48.5rem;
-   }
-}
-
-@media screen and (max-width: 1200px) {
-   .front .insiders-intro img {
-      max-height: 51.2rem;
-   }
-}
-
-.front .insiders-intro h2 {
-   padding-left: 50rem;
-}
-
-.front .insiders-intro p {
-   padding-left: 50rem;
 }
 
 @media screen and (max-width: 480px) {
@@ -3121,7 +2901,6 @@ body.faq .faq-summary {
    color: white;
    font-family: "insiders-sansumi", arial, sans-serif;
    font-size: 2.2rem;
-   padding-left: 50rem;
 }
 
 @media screen and (max-width: 480px) {
@@ -4137,6 +3916,12 @@ body.faq .faq-summary {
    filter: grayscale(0%) sepia(0%) hue-rotate(0deg) contrast(1);
 }
 
+.partner .pg-item-illust img {
+   -webkit-filter: grayscale(100%) sepia(30%) hue-rotate(180deg) contrast(1.1);
+   filter: grayscale(100%) sepia(30%) hue-rotate(180deg) contrast(1.1);
+   max-height: 11rem;
+}
+
 .partner .pg-item {
    width: 13.9%;
    margin: 0.5rem 0;
@@ -4257,7 +4042,7 @@ body.article_list .cxp-pagination .pagination .pagin-prev a i {
 }
 
 body.article_list .cxp-pagination .pagination .pagin-prev a::before {
-   content: url("/theme/milipol_insiders_git_desktop/img/arrow-left.svg");
+   content: url("/theme/milipol_insiders_git_desktop/img/arrow-orange-left.svg");
    padding-right: 1rem;
 }
 
