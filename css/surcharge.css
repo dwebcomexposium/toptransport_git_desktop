@@ -277,6 +277,14 @@ p {
    margin: 1.2rem 0;
 }
 
+.an-item-content .an-item-title {
+   margin-bottom: 0 !important;
+}
+
+.an-item-content .an-item-publication {
+   display: none !important;
+}
+
 .article-title {
    margin-top: -10rem;
 }
