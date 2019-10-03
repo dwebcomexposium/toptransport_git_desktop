@@ -1652,6 +1652,7 @@ header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-758179 a::before {
    position: absolute;
    width: 224px;
    height: 103px;
+   background-repeat: no-repeat;
 }
 
 header.site-banner .top-header {
@@ -2049,7 +2050,7 @@ header.site-banner .linkid758169 a:hover {
 }
 
 .slide_buttons {
-   bottom: 13rem;
+   bottom: 4rem;
 }
 
 @media screen and (max-width: 425px) {
@@ -2071,6 +2072,11 @@ header.site-banner .linkid758169 a:hover {
 
 .slider-perso-container {
    background: #050924;
+   width: 100vw !important;
+   margin-left: 50% !important;
+   -webkit-transform: translateX(-50%) !important;
+   -ms-transform: translateX(-50%) !important;
+       transform: translateX(-50%) !important;
    padding: 13rem 0 17.5rem 0;
    background-color: #151832;
    background-image: url(/theme/milipol_insiders_git_desktop/img/pattern.png);
@@ -2272,7 +2278,7 @@ p.date1 {
 }
 
 p.date2 {
-   color: #e64892;
+   color: #E94E1B;
 }
 
 p.date3 {
@@ -3158,32 +3164,7 @@ body.faq .faq-summary {
    position: absolute;
    top: 0;
    left: 0;
-   max-height: 45.1rem;
-}
-
-@media screen and (min-width: 1920px) {
-   .front .insiders-intro img {
-      max-height: 45.1rem;
-   }
-}
-
-@media screen and (max-width: 1920px) {
-   .front .insiders-intro img {
-      max-height: 48.5rem;
-   }
-}
-
-@media screen and (max-width: 1024px) {
-   .front .insiders-intro img {
-      top: 86px;
-      left: 30px !important;
-   }
-}
-
-@media screen and (max-width: 1200px) {
-   .front .insiders-intro img {
-      max-height: 51.2rem;
-   }
+   max-height: 100% !important;
 }
 
 @media screen and (max-width: 768px) {
