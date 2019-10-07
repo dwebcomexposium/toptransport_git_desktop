@@ -3800,6 +3800,11 @@ body.faq .faq-summary {
     }
 }
 
+.front .become-insider a.lien2,
+.front .become-partners a.lien2 {
+    color: white;
+}
+
 .front .become-insider a.lien2:hover,
 .front .become-partners a.lien2:hover {
     background-color: #1D213A;
