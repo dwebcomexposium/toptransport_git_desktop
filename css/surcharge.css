@@ -695,12 +695,6 @@ custom[name="factbox"] a.externe:hover {
    }
 }
 
-@media screen and (max-width: 768px) {
-   custom[name="factbox"] h2::before {
-      display: none !important;
-   }
-}
-
 .flex {
    display: -webkit-box;
    display: -ms-flexbox;
@@ -813,7 +807,8 @@ a.lien4:hover {
 }
 
 a.externe:not(.lien2,
-.lien1) {
+.lien1,
+.lien4.pdf) {
    border: none !important;
    background: transparent !important;
    padding: 0 !important;
@@ -1494,6 +1489,7 @@ header.site-banner>.inside {
           -ms-flex-pack: start;
               justify-content: flex-start;
       min-height: 115px;
+      z-index: -9 !important;
    }
 }
 
@@ -2488,6 +2484,12 @@ header.site-banner .linkid758169 a:hover {
    content: url("/theme/milipol_insiders_git_desktop/img/arrow-top-header.svg");
 }
 
+@media screen and (max-width: 1024px) {
+   #btn-scroll-top {
+      display: none !important;
+   }
+}
+
 
 /* Pages */
 
@@ -3059,6 +3061,21 @@ table tr td {
    border-bottom: 0 none;
    border-top: 0 none;
    text-align: center;
+}
+
+.map-responsive {
+   overflow: hidden;
+   padding-bottom: 56.25%;
+   position: relative;
+   height: 0;
+}
+
+iframe {
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 100%;
+   position: absolute;
 }
 
 body.contact .cl-item-email {
@@ -4693,6 +4710,21 @@ body.faq .faq-summary {
    margin: 0;
 }
 
+.partner-gallery::before {
+   content: "Sponsors";
+   color: #1D213A;
+   font-size: 3.2rem !important;
+   line-height: 42px;
+   margin-bottom: 2rem;
+   position: absolute;
+   margin-top: 9rem;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+       transform: translate(-50%, -50%);
+   font-weight: 700;
+}
+
 .partner .main-title-with-link {
    display: none;
 }
@@ -4700,7 +4732,8 @@ body.faq .faq-summary {
 .partner .pg-item-group {
    max-width: 130rem;
    margin: 0 auto;
-   padding: 6rem 0;
+   padding: 16rem 0 12rem 0;
+   text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -4721,7 +4754,7 @@ body.faq .faq-summary {
 }
 
 .partner .pg-item {
-   width: 13.9%;
+   width: 15.9%;
    margin: 0.5rem 0;
    padding: 0;
    border: 0 none;
@@ -5110,4 +5143,88 @@ body.search .box-light .inside .form-txt {
    width: 100%;
    min-height: 5.5rem;
    border: 0 none;
+}
+
+.content756427 header.site-banner {
+   content: "";
+   position: relative;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background-image: url(/theme/milipol_insiders_git_desktop/img/background-header.jpg);
+   background-size: cover;
+   min-height: 355px;
+   z-index: 1;
+}
+
+.content756427 h1 {
+   position: absolute;
+   z-index: 1;
+   font-size: 4.6rem;
+   line-height: 6.6rem;
+   text-transform: none;
+   text-align: center;
+   max-width: 130rem;
+   margin: 0 auto;
+   color: white;
+   top: -88px;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+       transform: translate(-50%, -50%);
+}
+
+.content756427 .breadcrumb-nav {
+   margin-bottom: 0;
+   position: absolute;
+   top: -16rem;
+   left: 0;
+   z-index: 2;
+   width: 100%;
+   text-align: center;
+}
+
+.content756427 .sm-list.unstyled {
+   margin-top: 210px;
+   max-width: 79rem;
+   margin: 5rem auto 10rem auto;
+}
+
+.content756427 .content-list-bullet li::before {
+   background: transparent;
+   margin-top: 0;
+}
+
+.content756427 .content-list-bullet>li:before {
+   content: url(/theme/milipol_insiders_git_desktop/img/arrow-orange.svg);
+   padding-left: 1rem;
+   -webkit-transform: inherit;
+   -ms-transform: inherit;
+       transform: inherit;
+}
+
+.content756427 .bn-list {
+   z-index: 999999;
+}
+
+.content756427 .bn-list li a {
+   color: white;
+   opacity: .6;
+   font-size: 1.2rem;
+}
+
+.content756427 .sm-list-item .sm-item-title {
+   font-size: 2.6rem;
+   color: #252525;
+   margin: 3rem 0;
+}
+
+.content756427 .sm-list-item li a {
+   color: #656880;
+   text-decoration: none;
+}
+
+.content756427 .sm-list-item li a:hover {
+   color: #E38500;
 }
