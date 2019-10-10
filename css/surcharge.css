@@ -1034,6 +1034,15 @@ body.error404 p {
    padding-bottom: inherit !important;
 }
 
+.site-footer .quicklinks .btn-primary:active,
+.site-footer .quicklinks .btn-primary:focus {
+   background-color: transparent !important;
+   border-color: transparent !important;
+   color: #9E9FAB !important;
+   text-decoration: none !important;
+   outline: none !important;
+}
+
 .site-footer {
    background: #ececec !important;
    text-align: center;
