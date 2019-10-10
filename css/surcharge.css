@@ -1307,6 +1307,7 @@ body.error404 p {
    font-size: 1rem;
    color: #9E9FAB;
    font-family: montserrat-light;
+   margin-right: 55px;
 }
 
 @media screen and (max-width: 425px) {
