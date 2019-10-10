@@ -192,7 +192,28 @@ font-size: 1.2rem !important;
   
 } 
 
+
+
 */
+
+.agenda a.externe.lien2 {
+   padding: 1.8rem 2.8rem;
+   font-size: 1.2rem;
+   line-height: 2.8rem;
+   color: #050924 !important;
+   border: 3px solid #050924 !important;
+   font-family: "insiders-montserrat-bold", arial, sans-serif;
+   background-color: transparent !important;
+   text-decoration: none;
+   border-radius: 2px;
+   display: inline-block;
+   text-transform: uppercase;
+}
+
+.agenda a.externe.lien2:hover {
+   background: #050924 !important;
+   color: white !important;
+}
 
 * {
    -webkit-box-sizing: border-box;
@@ -484,17 +505,21 @@ custom[name="factbox"] p {
 
 custom[name="factbox"] a.externe {
    background: #E38500;
-   text-decoration: none;
    border: 3px solid #E38500;
    font-family: "insiders-montserrat-bold", arial, sans-serif;
    font-size: 1.2rem;
    line-height: 2.8rem;
    color: #FFFFFF;
    letter-spacing: 0;
-   padding: 1.8rem 2.8rem;
    border-radius: 2px;
    display: inline-block;
    text-transform: uppercase;
+   text-decoration: underline !important;
+}
+
+custom[name="factbox"] a.externe:hover {
+   background-color: transparent !important;
+   background: transparent;
 }
 
 .nf-form-submit [class^="btn"] {
@@ -744,11 +769,9 @@ a.link-view-all,
 a.externe:not(.lien1),
 a.lien2,
 a.lien4 {
-   padding: 1.8rem 2.8rem;
+   padding: 0;
    font-size: 1.2rem;
    line-height: 2.8rem;
-   color: #050924;
-   border: 3px solid #050924;
    font-family: "insiders-montserrat-bold", arial, sans-serif;
    background-color: transparent;
    text-decoration: none;
@@ -761,8 +784,9 @@ a.link-view-all:hover,
 a.externe:not(.lien1):hover,
 a.lien2:hover,
 a.lien4:hover {
-   background-color: #050924;
+   background-color: transparent;
    color: white;
+   color: #050924;
 }
 
 .focus2 a.lien2 {
@@ -780,11 +804,25 @@ a.lien4:hover {
    color: white;
    border-color: #53B847;
    background-color: #53B847;
+   border: none !important;
 }
 
 .focus2 a.externe:hover {
    background: #64bf59;
    border-color: #64bf59;
+}
+
+a.externe:not(.lien2,
+.lien1) {
+   border: none !important;
+   background: transparent !important;
+   padding: 0 !important;
+   padding: 0 !important;
+}
+
+a.externe:not(.lien2,
+.lien1):hover {
+   background: transparent;
 }
 
 p.style3 .pdf,
@@ -2103,7 +2141,6 @@ header.site-banner .linkid758169 a {
    padding: 1.5rem;
    display: block;
    width: 185px;
-   width: 158px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -2442,6 +2479,10 @@ p.date4 {
 
 custom[name="strike"] {
    color: #E38500;
+}
+
+a.externe.lien2 {
+   padding: 1.8rem 2.8rem;
 }
 
 @media screen and (max-width: 480px) {
@@ -3267,11 +3308,18 @@ body.faq .faq-summary {
 }
 
 .front .article-focus.landing a.lien2 {
-   padding: 1.8rem 2.8rem;
+   padding: 1.8rem 2.8rem !important;
    font-size: 1.2rem;
    line-height: 2.8rem;
    color: white;
    border-color: white;
+   border: 3px solid white;
+   display: -webkit-box !important;
+   display: -ms-flexbox !important;
+   display: flex !important;
+   -webkit-box-align: center !important;
+       -ms-flex-align: center !important;
+           align-items: center !important;
 }
 
 @media screen and (max-width: 480px) {
@@ -3313,6 +3361,10 @@ body.faq .faq-summary {
 .front .insiders-advantages {
    max-width: 130rem;
    margin: 0 auto;
+}
+
+.front .insiders-intro a.lien2:hover {
+   background-color: #050924;
 }
 
 .front .insiders-intro {
@@ -3498,6 +3550,12 @@ body.faq .faq-summary {
 .front .insiders-intro a.lien2 {
    color: white;
    border-color: transparent;
+   display: -webkit-box !important;
+   display: -ms-flexbox !important;
+   display: flex !important;
+   -webkit-box-align: center !important;
+       -ms-flex-align: center !important;
+           align-items: center !important;
 }
 
 .front .insiders-intro a.lien2::after {
@@ -3791,7 +3849,7 @@ body.faq .faq-summary {
    font-size: 13.11px;
    color: #FFFFFF;
    letter-spacing: 0;
-   padding: 2rem;
+   padding: 1.8rem 2.8rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -3812,12 +3870,23 @@ body.faq .faq-summary {
 .front .become-insider a.lien2,
 .front .become-partners a.lien2 {
    color: white;
+   display: -webkit-box !important;
+   display: -ms-flexbox !important;
+   display: flex !important;
+   -webkit-box-align: center !important;
+       -ms-flex-align: center !important;
+           align-items: center !important;
 }
 
 .front .become-insider a.lien2:hover,
 .front .become-partners a.lien2:hover {
    background-color: #1D213A;
    border-color: #1D213A;
+}
+
+.front .lien1,
+.front .lien2 {
+   padding: 1.8rem 2.8rem;
 }
 
 @media screen and (max-width: 480px) {
@@ -3900,6 +3969,10 @@ body.faq .faq-summary {
       max-width: 35rem;
       top: 26%;
    }
+}
+
+.front .become-insider .lien2 {
+   padding: 1.8rem 2.8rem;
 }
 
 .front .become-insider .lien2::after {
@@ -3991,6 +4064,10 @@ body.faq .faq-summary {
       top: 17%;
       max-width: 40rem;
    }
+}
+
+.front .become-partners .lien2 {
+   padding: 1.8rem 2.8rem;
 }
 
 .front .become-partners .lien2::after {
@@ -4231,6 +4308,7 @@ body.faq .faq-summary {
 
 .front .agenda a.lien1,
 .front .agenda a.externe.lien2 {
+   padding: 1.8rem 2.8rem;
    color: #FFFFFF;
    margin: 0 1rem;
 }
@@ -4261,6 +4339,7 @@ body.faq .faq-summary {
 .front .agenda a.externe.lien2 {
    background: #00BDED;
    border: 2px solid #00BDED;
+   padding: 1.8rem 2.8rem;
 }
 
 .front .agenda a.externe.lien2:hover {
@@ -4488,9 +4567,19 @@ body.faq .faq-summary {
 }
 
 .front .list-articles:not(.insiders-advantages) a.link-view-all {
-   border-color: white;
+   border-color: white !important;
    color: white;
    margin: 0 0 0 auto;
+   padding: 1.8rem 2.8rem;
+   font-size: 1.2rem;
+   line-height: 2.8rem;
+   border: 3px solid #050924;
+   font-family: "insiders-montserrat-bold", arial, sans-serif;
+   background-color: transparent;
+   text-decoration: none;
+   border-radius: 2px;
+   display: inline-block;
+   text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {
