@@ -94,7 +94,6 @@ $('.slider').each(function() {
 });
 
 
-
 //MENU
 //burger menu
 $('.site-banner .inside').before("<div class='test-menu-res'>Menu</div>");
@@ -130,5 +129,24 @@ function resizeWindow() {
 //PULSE LANDING
 $('<div class="pulse pulse-1"></div><div class="pulse pulse-2"></div><div class="pulse pulse-3"></div><div class="pulse pulse-4"></div>').insertBefore('.article-focus.landing .af-title');
 
+
+//scroll top
+
+$('.footer-mentions').before("<div id='btn-scroll-top'></div>");
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+      $('#btn-scroll-top').fadeIn();
+    } else {
+      $('#btn-scroll-top').fadeOut();
+    }
+  });
+
+  $('#btn-scroll-top').click(function () {
+    $("html, body").animate({
+      scrollTop: 0
+    }, 800);
+      return false;
+  });
 
 });
