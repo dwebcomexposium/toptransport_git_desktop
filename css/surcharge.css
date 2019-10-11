@@ -689,9 +689,28 @@ custom[name="factbox"] a.externe:hover {
    }
 }
 
+custom[name="factbox"] a.externe {
+   padding: 1.8rem 2.8rem;
+   text-decoration: none !important;
+}
+
+custom[name="factbox"] a.externe:hover {
+   background: #fd9400 !important;
+   background-color: #fd9400 !important;
+   border-color: #fd9400 !important;
+   color: white;
+}
+
 @media screen and (max-width: 768px) {
    custom[name="factbox"] h2 {
-      padding: 4.5rem 1.5rem 1.5rem 8rem !important;
+      padding: 4.5rem 1.5rem 1.5rem 13rem !important;
+   }
+}
+
+@media screen and (max-width: 1200px) {
+   custom[name="factbox"] h2::before {
+      left: 60px !important;
+      top: 38px !important;
    }
 }
 
@@ -2409,12 +2428,12 @@ header.site-banner .linkid758169 a:hover {
 
 @media screen and (max-width: 768px) {
    .container-bloc-important {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      max-width: 395px;
-      margin: 0 auto;
+      -webkit-box-orient: vertical !important;
+      -webkit-box-direction: normal !important;
+          -ms-flex-direction: column !important;
+              flex-direction: column !important;
+      max-width: 395px !important;
+      margin: 0 auto !important;
    }
 }
 
