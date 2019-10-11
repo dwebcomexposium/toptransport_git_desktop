@@ -1426,7 +1426,7 @@ body.error404 p {
    }
 }
 
-header.site-banner .global-search-form .icon.icon-search::before {
+header header.site-banner .global-search-form .icon.icon-search::before {
    content: "";
    background-image: url(/theme/milipol_insiders_git_desktop/img/icon-search.svg);
    background-repeat: no-repeat;
@@ -1710,6 +1710,7 @@ header.site-banner .mn-item-lvl-2 .mn-link {
 
 header.site-banner .mn-item-lvl-2 .mn-link .mn-link-text {
    font-family: "insiders-montserrat-regular", arial, sans-serif;
+   width: 100%;
 }
 
 header.site-banner .mn-item-lvl-2:first-child .mn-link {
@@ -1990,6 +1991,9 @@ header.site-banner nav .mn-menu-line>.mn-menu-lvl1>li>a {
    -webkit-box-align: center;
        -ms-flex-align: center;
            align-items: center;
+   -webkit-hyphens: auto;
+   -ms-hyphens: auto;
+   hyphens: auto;
 }
 
 header.site-banner .mn-link {
@@ -2015,6 +2019,7 @@ header.site-banner .mn-link-text {
 @media screen and (max-width: 1024px) {
    header.site-banner .mn-link-text {
       font-size: 20px;
+      width: 100%;
    }
 }
 
