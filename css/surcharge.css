@@ -2397,7 +2397,25 @@ header.site-banner .linkid758169 a:hover {
    display: flex;
    background: #050924;
    border-bottom: 4px solid #E38500;
-   margin: 8rem 0;
+   margin: 30px 0 30px 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+   .container-bloc-important img {
+      -ms-flex-preferred-size: inherit !important;
+          flex-basis: inherit !important;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .container-bloc-important {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      max-width: 395px;
+      margin: 0 auto;
+   }
 }
 
 @media screen and (max-width: 480px) {
@@ -2412,9 +2430,6 @@ header.site-banner .linkid758169 a:hover {
 .container-bloc-important .bloc-important-img {
    -ms-flex-preferred-size: 50%;
        flex-basis: 50%;
-   background-image: url("/theme/milipol_insiders_git_desktop/img/background-bloc-important.jpg");
-   background-position: center;
-   background-size: cover;
 }
 
 .container-bloc-important .bloc-important-txt {
