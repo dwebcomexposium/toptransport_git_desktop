@@ -2523,9 +2523,10 @@ header.site-banner .linkid758169 a:hover {
    content: url("/theme/milipol_insiders_git_desktop/img/arrow-top-header.svg");
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 425px) {
    #btn-scroll-top {
-      display: none !important;
+      width: 40px;
+      height: 40px;
    }
 }
 
