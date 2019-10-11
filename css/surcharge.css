@@ -2528,6 +2528,21 @@ custom[name="strike"] {
    color: #E38500;
 }
 
+a.lien2,
+a.lien4.pdf,
+a.lien4.zip,
+.focus2 a.externe {
+   padding: 1.8rem 2.8rem;
+}
+
+.focus2 a.externe:hover {
+   color: white;
+}
+
+.important1 a.externe:hover {
+   color: white;
+}
+
 a.externe.lien2 {
    padding: 1.8rem 2.8rem;
 }
