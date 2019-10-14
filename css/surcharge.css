@@ -4139,8 +4139,10 @@ body.faq .faq-summary {
     padding-right: 70rem;
 }
 
-.front .become-partners .lien1 {
-    margin-bottom: 30px !important;
+@media screen and (max-width: 768px) {
+    .front .become-partners .lien1 {
+        margin-bottom: 30px !important;
+    }
 }
 
 @media screen and (max-width: 925px) {
@@ -4284,7 +4286,7 @@ body.faq .faq-summary {
 }
 
 .front .insiders-speakers-wrap .speakers {
-    max-width: 87rem;
+    max-width: 89rem;
     margin: 3.5rem auto 0;
 }
 
@@ -4295,16 +4297,12 @@ body.faq .faq-summary {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-justify-content: space-between;
 }
 
 .front .insiders-speakers-wrap .speakers>.cl-content>.cl-item {
     border: 0;
     border-bottom: 0 !important;
-    margin: 0 0 3.4rem 0;
+    margin: 0 1.8rem 3.4rem;
     display: -webkit-box !important;
     display: -ms-flexbox !important;
     display: flex !important;
@@ -4833,7 +4831,7 @@ body.faq .faq-summary {
 }
 
 .partner .main-title-with-link {
-    display: none;
+    display: block;
     border: 0 none;
 }
 
