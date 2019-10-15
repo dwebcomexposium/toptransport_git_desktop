@@ -248,6 +248,10 @@ body {
     font-size: 1.6rem;
 }
 
+em {
+    font-style: italic;
+}
+
 a {
     color: #E38500;
 }
@@ -1050,6 +1054,12 @@ header.site-banner a.mn-link {
 
 .mn-item-lvl-2 {
     padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .img-mask {
+        display: none !important;
+    }
 }
 
 .front .article-focus.landing,
@@ -3362,6 +3372,7 @@ body.faq .faq-summary {
         -ms-flex-pack: center;
             justify-content: center;
     margin-top: 5rem;
+    font-style: normal;
 }
 
 @media screen and (max-width: 480px) {
@@ -3543,6 +3554,7 @@ body.faq .faq-summary {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    font-style: normal;
     margin-top: 3rem;
 }
 
@@ -3909,6 +3921,7 @@ body.faq .faq-summary {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    font-style: normal;
 }
 
 @media screen and (max-width: 480px) {
