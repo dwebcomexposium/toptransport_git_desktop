@@ -1870,6 +1870,8 @@ header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-758179 a::before {
 @media screen and (max-width: 1024px) {
    header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-758179 a::before {
       display: block !important;
+      width: 224px !important;
+      background-size: 110px !important;
    }
 }
 
@@ -2928,7 +2930,7 @@ strong {
 }
 
 .article-content ul li {
-   color: #2a2c38;
+   color: #656880;
    font-size: 1.6rem;
    line-height: 2.9rem !important;
    font-family: "insiders-montserrat-regular", arial, sans-serif;
