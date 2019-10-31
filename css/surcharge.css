@@ -5531,3 +5531,15 @@ body.search .box-light .inside .form-txt {
 .content756427 .sm-list-item li a:hover {
    color: #E38500;
 }
+
+
+/* Ajustement Iframe EC */
+
+iframe.ec {
+    left: 0;
+    top: 0;
+    height: auto;
+    width: 830px;
+    position: relative;
+    display: block;
+}
