@@ -3794,7 +3794,7 @@ iframe {
 
 @media screen and (max-width: 768px) {
    .player-video {
-      height: 20rem;
+      height: 18rem !important;
    }
 }
 
@@ -4561,6 +4561,12 @@ body.faq .faq-summary {
    }
 }
 
+@media screen and (max-width: 768px) {
+   .front .insiders-enrollment-wrap .block-page {
+      max-width: 85% !important;
+   }
+}
+
 @media screen and (max-width: 480px) {
    .front .insiders-enrollment-wrap .block-page {
       margin: 0;
@@ -5270,7 +5276,6 @@ body.faq .faq-summary {
 
 @media screen and (max-width: 768px) {
    .front .become-partners .lien2 {
-      margin-top: 4rem !important;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
