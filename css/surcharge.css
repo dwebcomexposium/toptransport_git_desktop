@@ -2336,6 +2336,7 @@ header.site-banner .mn-menu.mn-menu-lvl1.unstyled {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+    width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -2345,7 +2346,6 @@ header.site-banner .mn-menu.mn-menu-lvl1.unstyled {
             -ms-flex-direction: column;
                 flex-direction: column;
         margin-bottom: 90px;
-        width: 100%;
     }
 }
 
