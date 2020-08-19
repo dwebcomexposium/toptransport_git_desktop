@@ -114,15 +114,15 @@ function resizeWindow() {
   if (window.innerWidth > 1024) {
       // $('.lang-switcher').after($('.cxp-searchform'));
       $('.global-search-form').insertAfter('.site-banner .lang-switcher');
-      $('.mn-menu-item-758179').prependTo('.site-banner .mn-menu-lvl1');
+      $('.mn-menu-item-863858').prependTo('.site-banner .mn-menu-lvl1');
       $('header.site-banner .mn-menu-lvl1 .block.block-small.quicklinks').insertAfter('.site-banner .inside > *:last-child');
 
   } else if (window.innerWidth < 1024) {
       $('.global-search-form').prependTo('.site-banner');
       // $('.top-header .date-salon').prependTo('.site-banner');
       // $('#cxpmClientAccountWidget').prependTo('.site-banner');
-      $('.mn-menu-item-758179').prependTo('.site-banner');
-      $('header.site-banner .block.block-small.quicklinks:nth-child(7)').insertAfter('.site-banner .mn-item-lvl-1:last-child');
+      $('.mn-menu-item-863858').prependTo('.site-banner');
+      $('header.site-banner .block.block-small.quicklinks:nth-child(8)').insertAfter('.site-banner .mn-item-lvl-1:last-child');
   }
 }
 
