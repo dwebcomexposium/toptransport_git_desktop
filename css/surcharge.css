@@ -2327,6 +2327,11 @@ header.site-banner .block.block-small.quicklinks .ql-list.unstyled {
     display: -ms-flexbox;
     display: flex;
     z-index: 100;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
 }
 
 header.site-banner .mn-menu.mn-menu-lvl1.unstyled {
