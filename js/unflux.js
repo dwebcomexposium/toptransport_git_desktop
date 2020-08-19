@@ -122,7 +122,7 @@ function resizeWindow() {
       // $('.top-header .date-salon').prependTo('.site-banner');
       // $('#cxpmClientAccountWidget').prependTo('.site-banner');
       $('.mn-menu-item-863858').prependTo('.site-banner');
-      $('header.site-banner .block.block-small.quicklinks:nth-child(8)').insertAfter('.site-banner .mn-item-lvl-1:last-child');
+      $('header.site-banner .block.block-small.quicklinks:nth-child(7)').insertAfter('.site-banner .mn-item-lvl-1:last-child');
   }
 }
 
