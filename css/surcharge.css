@@ -6299,3 +6299,8 @@ body.search .box-light .inside .form-txt {
 .content756427 .sm-list-item li a:hover {
    color: #003657;
 }
+
+.btn-primary:focus, .btn-primary:hover, .btn-primary:active {
+    background-color: transparent;
+    border-color: inherit !important;
+}
