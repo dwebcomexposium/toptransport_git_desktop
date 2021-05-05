@@ -6313,3 +6313,29 @@ body.search .box-light .inside .form-txt {
 }
 
 /* test*/
+
+/* 
+Add space between the logo and the exhibitor's link in the mobile header 
+*/
+
+@media screen and (max-width: 1024px) {
+   .ql-item.linkid870139 {
+     margin-top: 6em;
+     padding-top: 1em;
+     padding-bottom: .5em;
+   }
+}
+
+/*
+Increase width in order to cover background buttons on mobile
+*/
+
+@media screen and (max-width: 1025px) {
+   a.lien1 {
+       max-width: 35rem;
+   }
+
+   .front .article-focus.landing em a {
+       margin: 10px 1.5rem;
+   }
+}
