@@ -1,0 +1,11 @@
+/* 
+Add space between the logo and the exhibitor's link in the mobile header 
+*/
+
+@media screen and (max-width: 1024px) {
+   .ql-item.linkid870139 {
+     margin-top: 6em;
+     padding-top: 1em;
+     padding-bottom: .5em;
+   }
+}
