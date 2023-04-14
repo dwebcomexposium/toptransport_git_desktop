@@ -6339,3 +6339,7 @@ Increase width in order to cover background buttons on mobile
        margin: 10px 1.5rem;
    }
 }
+
+header.site-banner .mn-link-text {
+    font-size: 1.1rem;
+ }
