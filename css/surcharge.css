@@ -6358,4 +6358,12 @@ header.site-banner .mn-link-text {
 .front .article-focus.landing .af-title, .front .article-focus.landing p {
     color: #001733!important;
 }
+.front .article-focus.landing .af-title {
+    display: none;
+}
+.front .article-focus.landing h5 {
+    font-size: 2.8rem;
+    margin-top: -13rem;
+    background-color: #dad8E3;
+}
 }
