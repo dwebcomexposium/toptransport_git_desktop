@@ -6370,3 +6370,17 @@ header.site-banner .mn-link-text {
     background-color: #002140 !important;
 }
 }
+
+.front .article-focus.landing {
+    background-image: url(/theme/toptransport_git_desktop/img/TTE_23_fond_home.jpg);
+    background-size: 86%;
+    background-repeat: no-repeat;
+    background-position: -39px 53%;
+   align-items: flex-start;
+}
+.front .article-focus.landing h5, .front .article-focus.landing h6, .front .article-focus.landing h7{
+   display:none;}
+.front .article-focus.landing a.lien1 {
+    background-color: #e4e4ec !important;
+    color: #001733 !important;
+}
