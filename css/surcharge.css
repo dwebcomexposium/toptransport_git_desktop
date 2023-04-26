@@ -6350,3 +6350,12 @@ header.site-banner .mn-link-text {
     background-size: cover;
     background-position: -610px 61%;
 }}
+
+@media screen and (max-width: 1025px){
+.test-menu-res, header.site-banner .top-header .date-salon, a.btn-primary, header.site-banner .lang-switcher .ls-trigger   {
+    color: #001733;
+}
+.front .article-focus.landing .af-title, .front .article-focus.landing p {
+    color: #001733!important;
+}
+}
