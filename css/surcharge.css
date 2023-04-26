@@ -6343,3 +6343,10 @@ Increase width in order to cover background buttons on mobile
 header.site-banner .mn-link-text {
     font-size: 1.1rem;
  }
+
+@media screen and (max-width: 1200px){
+.front .article-focus.landing {
+    background-image: url(/theme/toptransport_git_desktop/img/TTE_23_fond_home.jpg);
+    background-size: cover;
+    background-position: -610px 61%;
+}}
