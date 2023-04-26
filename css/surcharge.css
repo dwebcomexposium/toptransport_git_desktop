@@ -6344,6 +6344,7 @@ header.site-banner .mn-link-text {
     font-size: 1.1rem;
  }
 
+/* Ajustement mobile */
 @media screen and (max-width: 1200px){
 .front .article-focus.landing {
     background-image: url(/theme/toptransport_git_desktop/img/TTE_23_fond_home.jpg);
@@ -6370,7 +6371,8 @@ header.site-banner .mn-link-text {
     background-color: #002140 !important;
 }
 }
-
+/* Ajustement Desktop */
+@media screen and (min-width: 1025px){
 .front .article-focus.landing {
     background-image: url(/theme/toptransport_git_desktop/img/TTE_23_fond_home.jpg);
     background-size: 86%;
@@ -6386,4 +6388,5 @@ header.site-banner .mn-link-text {
 }
 .front .article-focus.landing .af-title {
     display: none;
+}
 }
