@@ -6366,4 +6366,7 @@ header.site-banner .mn-link-text {
     margin-top: -13rem;
     background-color: #dad8E3;
 }
+.front .article-focus.landing a.lien1 {
+    background-color: #002140 !important;
+}
 }
