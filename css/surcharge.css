@@ -6384,3 +6384,6 @@ header.site-banner .mn-link-text {
     background-color: #e4e4ec !important;
     color: #001733 !important;
 }
+.front .article-focus.landing .af-title {
+    display: none;
+}
