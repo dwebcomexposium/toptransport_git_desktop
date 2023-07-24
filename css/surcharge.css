@@ -639,6 +639,11 @@ a:hover {
    header.site-banner .mn-item-lvl-2 .mn-link {
       padding-bottom: 3rem !important;
    }
+   
+   .site-banner.is-stuck .inside {
+      background: white;
+   }
+
 }
 
 .nf-form-submit [class^="btn"] {
@@ -6750,7 +6755,15 @@ header.site-banner.is-stuck>.inside .main-navigation {
 header.site-banner.is-stuck .top-header .date-salon {  position: fixed; /*margin-top: 130px;*/ right: 20px;    }
 
 
+@media screen and (max-width: 1024px) {
+   
+   .site-banner.is-stuck {
+      background: white!important;
+	  height: 105px;
+	  box-shadow: 0 10px 10px rgba(68, 68, 68, 0.37);
+   }
 
+}
 
 
 
