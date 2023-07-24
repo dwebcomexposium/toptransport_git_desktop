@@ -2575,17 +2575,7 @@ header.site-banner .block.block-small.quicklinks:nth-child(7) {
    z-index: 0 !important;
 }
 
-@media screen and (max-width: 1025px) {
-   header.site-banner .block.block-small.quicklinks:nth-child(7) {
-      /*position: absolute;
-                top: 472px;
-                left: -16px;*/
-      padding: 0;
-      position: relative;
-      display: block !important;
-      margin-top: 25px;
-   }
-}
+
 
 @media screen and (max-width: 1025px) {
    header.site-banner .linkid860465 {
