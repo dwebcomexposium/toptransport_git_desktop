@@ -314,7 +314,7 @@ p,
 li {
    font-family: "Poppins", arial, sans-serif;
    font-style: normal !important;
-   font-weight: bolder !important;
+   font-weight: 600 !important;
 }
 
 .agenda a.externe.lien2 {
@@ -5358,7 +5358,7 @@ max-width: 70%;
    font-family: "Poppins", arial, sans-serif;
    color: white;
    font-style: normal !important;
-   font-weight: bolder !important;
+   font-weight: 600 !important;
 }
 
 .front .agenda table tr:nth-child(1) td {
@@ -5404,7 +5404,7 @@ max-width: 70%;
    font-family: "Poppins", arial, sans-serif;
    color: #001733;
    font-style: normal !important;
-   font-weight: bolder !important;
+   font-weight: 600 !important;
 }
 
 .front .agenda .af-title {
@@ -5602,7 +5602,7 @@ max-width: 70%;
    color: white !important;
    line-height: 2.6rem;
    font-style: normal !important;
-   font-weight: bolder !important;
+   font-weight: 600 !important;
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
@@ -6555,7 +6555,7 @@ width: 100%!important }
 
 	transition: background-position 0.3s, color 0.3s;
 	background-image: linear-gradient( to right, #DB2F37 50%, #E9454C 50%)!important; background-size: 200% 100%!important; background-position: calc(100% + 0px) 50%!important; background-repeat: no-repeat; color: #fff!important; text-decoration: none; display:inline-flex; align-items:center; font-size: 15px;  font-weight: 600;  line-height: 1.1; font-style: normal;
-	  padding: 16px 28px; box-shadow: inset 0px 0px 0px 1px transparent; border:none; background-color: transparent; padding: 22px 25px;
+	  padding: 16px 28px; box-shadow: inset 0px 0px 0px 1px transparent; border:none; background-color: transparent; padding: 22px 25px; font-family: "Poppins", arial, sans-serif; font-weight: 600 !important;
 }
 
 .btn-alt svg { margin-right: 23px; margin-left: 10px; }
