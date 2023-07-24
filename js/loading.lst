@@ -1,4 +1,3 @@
-vendor/*
 modules/*
 unflux.js
 kv.js
