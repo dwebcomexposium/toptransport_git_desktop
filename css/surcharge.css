@@ -2485,9 +2485,13 @@ header.site-banner .mn-menu-submenu li a {
 }
 
 header.site-banner .mn-menu-submenu li a:hover .mn-link,
-header.site-banner .is-open .mn-link.mn-link,
-header.site-banner .mn-link.is-active {
+header.site-banner .is-open .mn-link.mn-link {
    background-color: rgba(178, 180, 192, 0.1);
+}
+
+
+header.site-banner .mn-link.is-active {
+   background-color: rgba(0, 23, 49, 1);
 }
 
 header.site-banner .block.block-small.quicklinks:nth-child(3) ul {
