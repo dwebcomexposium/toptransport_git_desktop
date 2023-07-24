@@ -2775,7 +2775,7 @@ header.site-banner .linkid860466 a:before {
    background-image: url(images/logo-toptransport.svg);
    background-repeat: no-repeat;
    width: 245px;
-   height: 86px;
+   height: 89px;
    left: 0;
    
 }
@@ -3329,10 +3329,16 @@ strong {
    text-align: center;
 }
 
+
+
 .breadcrumb-nav .bn-item-link {
-   color: white;
-   opacity: .6;
-   font-size: 1.2rem;
+    color: white;
+    opacity: .6;
+    font-size: 1.2rem;
+    color: #001733;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .breadcrumb-nav .bn-item-link:hover {
@@ -3346,8 +3352,10 @@ strong {
 .breadcrumb-nav i.icon::before {
    content: "/";
    font-size: 1.4rem;
-   color: white;
+   color: #001733;
 }
+
+
 
 .article-navigation .inside {
    margin: 4rem 0 10rem;
