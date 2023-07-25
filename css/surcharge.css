@@ -6789,6 +6789,5 @@ header.site-banner .block.block-small.quicklinks:nth-child(7), .landing div.af-t
 @media only screen and (max-width: 600px) {
     p, h1, h2, h3 {
         word-wrap: normal!important;
-        white-space: nowrap!important;
     }
 }
