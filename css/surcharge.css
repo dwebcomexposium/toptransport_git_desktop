@@ -1983,6 +1983,7 @@ header.site-banner .global-search-form {
    position: relative;
    bottom: auto;
    right: auto;
+   z-index: 999999;
 }
 
 @media screen and (max-width: 1025px) {
@@ -6764,10 +6765,6 @@ header.site-banner.is-stuck .top-header .date-salon {  position: fixed; /*margin
    }
 
 }
-
-
-
-
 
 
 /*KV animation*/
