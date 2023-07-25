@@ -6784,3 +6784,11 @@ svg .svg-elem-1{stroke-dashoffset:2296px;stroke-dasharray:2296px;-webkit-transit
 /*hide*/
 header.site-banner .block.block-small.quicklinks:nth-child(7), .landing div.af-title { display: none; }
 
+
+
+@media only screen and (max-width: 600px) {
+    p, h1, h2, h3 {
+        word-wrap: normal!important;
+        white-space: nowrap!important;
+    }
+}
