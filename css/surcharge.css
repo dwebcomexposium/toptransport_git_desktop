@@ -1517,6 +1517,12 @@ body.error404 p {
    -webkit-box-align: center;
        -ms-flex-align: center;
            align-items: center;
+	justify-content: center;
+
+}
+.site-footer .footer-mentions .footer-brands a:last-child{
+margin-left: 30px;
+	
 }
 
 @media screen and (max-width: 480px) {
@@ -2112,7 +2118,7 @@ header.site-banner .lang-switcher {
    position: relative;
    display: block;
    margin-top: 0.7rem;
-   z-index: 999 !important;
+   z-index: 99999!important;
 }
 
 @media screen and (max-width: 1024px) {
