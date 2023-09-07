@@ -314,7 +314,7 @@ p,
 li {
    font-family: "Poppins", arial, sans-serif;
    font-style: normal !important;
-   font-weight: 600 !important;
+/*   font-weight: 600 !important;*/
 }
 
 .agenda a.externe.lien2 {
@@ -2782,6 +2782,10 @@ header.site-banner .linkid860466 a:before {
    
 }
 
+
+
+
+
 @media screen and (max-width: 1340px) {
    .mn-menu-item-863858 .mn-link::before {
       background-size: 70%;
@@ -3382,7 +3386,7 @@ strong {
 }
 
 body.article_list .main-title-with-link::before,
-.article-wrapper .article-title::before {
+.article-wrapper .article-title::before, .article-wrapper .article-title::before {
    content: "";
    background-image: url("images/bg-inner.png");
    background-size: cover;
@@ -3469,7 +3473,7 @@ body.article_list .main-title-with-link::before,
 }
 
 .article-content ul li {
-   color: #656880;
+   color: #001733;
    font-size: 1.8rem;
    line-height: 2.9rem !important;
    font-family: "Poppins", arial, sans-serif;
@@ -3960,11 +3964,11 @@ body.contact .contacts-list .inside>h1 {
    margin: 0;
    text-transform: none;
    text-align: center;
-   color: white;
+/*   color: white;*/
    padding: 23rem 0 5rem 0;
 }
 
-body.contact .contacts-list .inside>h1::after {
+/*body.contact .contacts-list .inside>h1::after {
    z-index: -1;
    content: "";
    position: absolute;
@@ -3972,9 +3976,9 @@ body.contact .contacts-list .inside>h1::after {
    top: 0;
    width: 100%;
    height: 100%;
-   background-image: url("images/background-header.jpg");
+   background-image: url("images/bg-inner.png");
    background-size: cover;
-}
+}*/
 
 body.faq .intro {
    max-width: 79rem;
@@ -4076,7 +4080,7 @@ body.faq .faq-main-title::after {
    top: 0;
    width: 100%;
    height: 100%;
-   background-image: url("images/background-header.jpg");
+   background-image: url("images/bg-inner.png");
    background-size: cover;
 }
 
@@ -4169,7 +4173,7 @@ max-width: 70%;
 
 
 .front .insiders-intro-wrap {
-   background-image: url("images/background-home-intro.jpg");
+/*   background-image: url("images/background-home-intro.jpg");*/
    background-position: center;
    background-size: cover;
    padding-bottom: 9rem;
@@ -4425,7 +4429,7 @@ max-width: 70%;
 }
 
 .front .insiders-enrollment-wrap {
-   background-color: #001733;
+   background-color: #E3E2E9;
    padding: 0 0 14.5rem;
 }
 
@@ -4447,7 +4451,7 @@ max-width: 70%;
 }
 
 .front .insiders-enrollment-wrap p {
-   color: white;
+   color: #001733;
 }
 
 .front .insiders-enrollment-wrap img {
@@ -4455,15 +4459,15 @@ max-width: 70%;
 }
 
 .front .insiders-enrollment-wrap a.lien2 {
-   color: #fff !important;
+   color: #001733 !important;
 }
 
 .front .insiders-enrollment-wrap a.lien2:hover {
-   color: white !important;
+   color: #001733 !important;
 }
 
 .front .insiders-enrollment-wrap h2 {
-   color: #fff !important;
+   color: #001733 !important;
 }
 
 @media screen and (max-width: 1025px) {
@@ -4515,7 +4519,7 @@ max-width: 70%;
 }
 
 .front .insiders-speakers-wrap {
-   background-image: url("images/background-speaker.jpg");
+   background-image: url("images/bg-inner.png");
    background-position: center;
    background-size: cover;
    padding: 11rem 0 10rem 0;
@@ -4933,7 +4937,7 @@ max-width: 70%;
    font-weight: inherit;
    font-size: 2rem;
    margin-bottom: .5rem;
-   color: white;
+   color: #001733;
 }
 
 @media screen and (max-width: 768px) {
@@ -4951,7 +4955,7 @@ max-width: 70%;
 .front .become-insider li,
 .front .become-partners li {
    font-family: "Poppins", arial, sans-serif;
-   color: white !important;
+   color: #001733 !important;
    font-size: 1.8rem;
    line-height: 3rem;
    margin-bottom: 1rem;
@@ -6008,7 +6012,7 @@ body.error404 .ep-intro .main-title::before {
    top: 0;
    width: 100%;
    height: 100%;
-   background-image: url("images/background-header.jpg");
+   background-image: url("images/bg-inner.png");
    background-size: cover;
 }
 
@@ -6129,7 +6133,7 @@ body.search .box-light::before {
    top: 0;
    width: 100%;
    height: 100%;
-   background-image: url("images/background-header.jpg");
+   background-image: url("images/bg-inner.png");
    background-size: cover;
 }
 
@@ -6185,7 +6189,7 @@ body.search .box-light .inside .form-txt {
    left: 0;
    top: 0;
    height: 355px;
-   background-image: url(images/background-header.jpg);
+   background-image: url(images/bg-inner.png);
 }
 
 .content756427 #main {
@@ -6796,4 +6800,10 @@ header.site-banner .block.block-small.quicklinks:nth-child(7), .landing div.af-t
     p, h1, h2, h3 {
         word-wrap: normal!important;
     }
+}
+
+.site-banner.is-stuck .mn-menu-item-863858 .mn-link::before {background-image: url(images/logo-white.svg); }
+
+@media only screen and (max-width: 1024px) {
+    .site-banner.is-stuck .mn-menu-item-863858 .mn-link::before {background-image: url(images/logo-toptransport.svg); }
 }
